@@ -1,0 +1,230 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18939000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens the url",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_opens_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12208000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user tries click on Sign in link",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_tries_click_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is navigated to sign in page",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_is_navigated_to_sign_in_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-15T18:05:56.051Z",
+        "line": 22,
+        "name": "User provides email and fills registration form",
+        "description": "",
+        "id": "login-into-website;user-provides-email-and-fills-registration-form;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 257000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user provides \"Z6@gmail.com\" and clicks on createbutton",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Z6@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDef.LoginStepDef.clicks_on_Create_Account_button(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on registration page",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name\u003d\u0027id_gender\u0027 and @value\u003d\u00271\u0027]\"}\n  (Session info: chrome\u003d96.0.4664.93)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-A55D294\u0027, ip: \u0027192.168.1.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_311\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Windows\\TEMP\\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:55859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 397b3bb8399fc2cfead3b46b1a1376ed\n*** Element info: {Using\u003dxpath, value\u003d//*[@name\u003d\u0027id_gender\u0027 and @value\u003d\u00271\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat com.qa.pages.registerPage.selectgender(registerPage.java:82)\r\n\tat StepDef.LoginStepDef.user_registration(LoginStepDef.java:82)\r\n\tat ✽.user fills \"Mr.\" and \"Same\" and \"Lambe\" and \"123456\u0026\" and \"12\" and \"3\" and \"1937\" and \"Bayer\" and \"4, Santa\" and \"Alabama\" and \"1\" and \"35000\" and \"1\" and \"25147\" and \"samba\"(file:///E:/Selenium%20Projects/CucumberDemo2/src/test/resources/Features/loginf.feature:17)\r\n",
+              "duration": 30083000000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user fills \"Mr.\" and \"Same\" and \"Lambe\" and \"123456\u0026\" and \"12\" and \"3\" and \"1937\" and \"Bayer\" and \"4, Santa\" and \"Alabama\" and \"1\" and \"35000\" and \"1\" and \"25147\" and \"samba\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr.",
+                  "offset": 12
+                },
+                {
+                  "val": "Same",
+                  "offset": 22
+                },
+                {
+                  "val": "Lambe",
+                  "offset": 33
+                },
+                {
+                  "val": "123456\u0026",
+                  "offset": 45
+                },
+                {
+                  "val": "12",
+                  "offset": 59
+                },
+                {
+                  "val": "3",
+                  "offset": 68
+                },
+                {
+                  "val": "1937",
+                  "offset": 76
+                },
+                {
+                  "val": "Bayer",
+                  "offset": 87
+                },
+                {
+                  "val": "4, Santa",
+                  "offset": 99
+                },
+                {
+                  "val": "Alabama",
+                  "offset": 114
+                },
+                {
+                  "val": "1",
+                  "offset": 128
+                },
+                {
+                  "val": "35000",
+                  "offset": 136
+                },
+                {
+                  "val": "1",
+                  "offset": 148
+                },
+                {
+                  "val": "25147",
+                  "offset": 156
+                },
+                {
+                  "val": "samba",
+                  "offset": 168
+                }
+              ],
+              "location": "StepDef.LoginStepDef.user_registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "clicks on register button",
+            "match": {
+              "location": "StepDef.LoginStepDef.clicks_on_register_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "login into website",
+    "description": "",
+    "id": "login-into-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/loginf.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-15T18:06:57.665Z",
+        "line": 4,
+        "name": "User account successful",
+        "description": "",
+        "id": "registration-successful;user-account-successful",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),\u0027My addresses\u0027)]\"}\n  (Session info: chrome\u003d96.0.4664.93)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-A55D294\u0027, ip: \u0027192.168.1.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_311\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Windows\\TEMP\\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:55859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 397b3bb8399fc2cfead3b46b1a1376ed\n*** Element info: {Using\u003dxpath, value\u003d//span[contains(text(),\u0027My addresses\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat com.qa.pages.accountsPage.myAddress(accountsPage.java:24)\r\n\tat StepDef.RegisterStepDef.registration_Page(RegisterStepDef.java:23)\r\n\tat ✽.user is on accounts page(file:///E:/Selenium%20Projects/CucumberDemo2/src/test/resources/Features/register.feature:5)\r\n",
+              "duration": 30057000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user is on accounts page",
+            "match": {
+              "location": "StepDef.RegisterStepDef.registration_Page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Registration successful",
+    "description": "",
+    "id": "registration-successful",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/register.feature",
+    "tags": []
+  }
+]

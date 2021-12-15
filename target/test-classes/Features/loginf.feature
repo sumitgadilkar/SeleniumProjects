@@ -19,6 +19,6 @@ And clicks on register button
 
 Examples:
 |Email|Title|CFirstName|CLastName|Password | Date | Month| Year|Company|Address|City|State|ZipCode|Country|Mobile|Alias|
-| Z6@gmail.com  |Mr. |Same|Lambe     | 123456& | 12 | 3 | 1937 | Bayer|4, Santa|Alabama|1|35000|1|25147|samba|
+| Z7@gmail.com  |Mr. |Same|Lambe     | 123456& | 12 | 3 | 1937 | Bayer|4, Santa|Alabama|1|35000|1|25147|samba|
 
 
