@@ -11,8 +11,8 @@
         "steps": [
           {
             "result": {
-              "duration": 16317000000,
-              "status": "passed"
+              "duration": 997100,
+              "status": "skipped"
             },
             "line": 4,
             "name": "user opens the url",
@@ -23,8 +23,7 @@
           },
           {
             "result": {
-              "duration": 14885000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "user tries click on Sign in link",
@@ -35,8 +34,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "user is navigated to sign in page",
@@ -48,7 +46,76 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-15T18:11:33.890Z",
+        "start_timestamp": "2021-12-15T18:31:05.458Z",
+        "line": 9,
+        "name": "User is on sign in page",
+        "description": "",
+        "id": "login-into-website;user-is-on-sign-in-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user verify the title of the sign in page",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_verify_the_title_of_the_sign_in_page()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user opens the url",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_opens_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user tries click on Sign in link",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_tries_click_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is navigated to sign in page",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_is_navigated_to_sign_in_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-15T18:31:05.535Z",
         "line": 22,
         "name": "User provides email and fills registration form",
         "description": "",
@@ -58,15 +125,14 @@
         "steps": [
           {
             "result": {
-              "duration": 401000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
-            "name": "user provides \"Z7@gmail.com\" and clicks on createbutton",
+            "name": "user provides \"Z8@gmail.com\" and clicks on createbutton",
             "match": {
               "arguments": [
                 {
-                  "val": "Z7@gmail.com",
+                  "val": "Z8@gmail.com",
                   "offset": 15
                 }
               ],
@@ -76,8 +142,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "user is on registration page",
@@ -88,8 +153,7 @@
           },
           {
             "result": {
-              "duration": 7428000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "user fills \"Mr.\" and \"Same\" and \"Lambe\" and \"123456\u0026\" and \"12\" and \"3\" and \"1937\" and \"Bayer\" and \"4, Santa\" and \"Alabama\" and \"1\" and \"35000\" and \"1\" and \"25147\" and \"samba\"",
@@ -162,8 +226,347 @@
           },
           {
             "result": {
-              "duration": 13520000000,
-              "status": "passed"
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "clicks on register button",
+            "match": {
+              "location": "StepDef.LoginStepDef.clicks_on_register_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user opens the url",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_opens_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user tries click on Sign in link",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_tries_click_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is navigated to sign in page",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_is_navigated_to_sign_in_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-15T18:31:05.553Z",
+        "line": 23,
+        "name": "User provides email and fills registration form",
+        "description": "",
+        "id": "login-into-website;user-provides-email-and-fills-registration-form;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user provides \"Z9@gmail.com\" and clicks on createbutton",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Z9@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDef.LoginStepDef.clicks_on_Create_Account_button(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user is on registration page",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user fills \"Mr.\" and \"Same\" and \"Lambe\" and \"123456\u0026\" and \"12\" and \"3\" and \"1937\" and \"Bayer\" and \"4, Santa\" and \"Alabama\" and \"1\" and \"35000\" and \"1\" and \"25147\" and \"samba\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr.",
+                  "offset": 12
+                },
+                {
+                  "val": "Same",
+                  "offset": 22
+                },
+                {
+                  "val": "Lambe",
+                  "offset": 33
+                },
+                {
+                  "val": "123456\u0026",
+                  "offset": 45
+                },
+                {
+                  "val": "12",
+                  "offset": 59
+                },
+                {
+                  "val": "3",
+                  "offset": 68
+                },
+                {
+                  "val": "1937",
+                  "offset": 76
+                },
+                {
+                  "val": "Bayer",
+                  "offset": 87
+                },
+                {
+                  "val": "4, Santa",
+                  "offset": 99
+                },
+                {
+                  "val": "Alabama",
+                  "offset": 114
+                },
+                {
+                  "val": "1",
+                  "offset": 128
+                },
+                {
+                  "val": "35000",
+                  "offset": 136
+                },
+                {
+                  "val": "1",
+                  "offset": 148
+                },
+                {
+                  "val": "25147",
+                  "offset": 156
+                },
+                {
+                  "val": "samba",
+                  "offset": 168
+                }
+              ],
+              "location": "StepDef.LoginStepDef.user_registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "clicks on register button",
+            "match": {
+              "location": "StepDef.LoginStepDef.clicks_on_register_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user opens the url",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_opens_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user tries click on Sign in link",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_tries_click_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is navigated to sign in page",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_is_navigated_to_sign_in_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-15T18:31:05.575Z",
+        "line": 24,
+        "name": "User provides email and fills registration form",
+        "description": "",
+        "id": "login-into-website;user-provides-email-and-fills-registration-form;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user provides \"Z10@gmail.com\" and clicks on createbutton",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Z10@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDef.LoginStepDef.clicks_on_Create_Account_button(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user is on registration page",
+            "match": {
+              "location": "StepDef.LoginStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user fills \"Mr.\" and \"Same\" and \"Lambe\" and \"123456\u0026\" and \"12\" and \"3\" and \"1937\" and \"Bayer\" and \"4, Santa\" and \"Alabama\" and \"1\" and \"35000\" and \"1\" and \"25147\" and \"samba\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr.",
+                  "offset": 12
+                },
+                {
+                  "val": "Same",
+                  "offset": 22
+                },
+                {
+                  "val": "Lambe",
+                  "offset": 33
+                },
+                {
+                  "val": "123456\u0026",
+                  "offset": 45
+                },
+                {
+                  "val": "12",
+                  "offset": 59
+                },
+                {
+                  "val": "3",
+                  "offset": 68
+                },
+                {
+                  "val": "1937",
+                  "offset": 76
+                },
+                {
+                  "val": "Bayer",
+                  "offset": 87
+                },
+                {
+                  "val": "4, Santa",
+                  "offset": 99
+                },
+                {
+                  "val": "Alabama",
+                  "offset": 114
+                },
+                {
+                  "val": "1",
+                  "offset": 128
+                },
+                {
+                  "val": "35000",
+                  "offset": 136
+                },
+                {
+                  "val": "1",
+                  "offset": 148
+                },
+                {
+                  "val": "25147",
+                  "offset": 156
+                },
+                {
+                  "val": "samba",
+                  "offset": 168
+                }
+              ],
+              "location": "StepDef.LoginStepDef.user_registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
             "line": 18,
             "name": "clicks on register button",
@@ -191,7 +594,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-12-15T18:12:26.507Z",
+        "start_timestamp": "2021-12-15T18:31:05.582Z",
         "line": 4,
         "name": "User account successful",
         "description": "",
@@ -201,8 +604,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7720000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "user is on accounts page",
