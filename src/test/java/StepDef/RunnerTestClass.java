@@ -10,7 +10,7 @@ import io.cucumber.junit.Cucumber;
 	@CucumberOptions(features="src/test/resources/Features", //path of feature file
 	glue = "StepDef",										// path of Step definitions file
 	monochrome = true,										// display output in readable format
-	plugin = {"pretty","html:target/htmlReports"},
+	plugin = {"pretty","json:target/jsonReports"},
 	dryRun = false, // Req Cucumber JUnit dependency
 	tags = "@Smoke"
 	
