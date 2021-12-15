@@ -1,0 +1,5 @@
+com\qa\pages\accountsPage.class
+com\qa\pages\registerPage.class
+com\qa\util\TestBase.class
+com\qa\pages\screenshotHandler.class
+com\qa\pages\loginPage.class

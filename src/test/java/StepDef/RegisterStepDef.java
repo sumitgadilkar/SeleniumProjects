@@ -2,8 +2,6 @@ package StepDef;
 
 import java.io.IOException;
 
-import org.openqa.selenium.WebDriver;
-
 import com.qa.pages.accountsPage;
 import com.qa.pages.registerPage;
 import com.qa.pages.screenshotHandler;

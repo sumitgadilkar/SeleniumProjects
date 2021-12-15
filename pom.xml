@@ -4,6 +4,18 @@
 	<artifactId>CucumberDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- Need to tell compiler java is 1.8. 
+         Make sure your pom.xml specifies JDK 8 as the preferred environment -->
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+
+	</properties>
+
+
 	<dependencies>
 
 		<dependency>
@@ -78,7 +90,7 @@
 					<version>3.0.0-M5</version>
 					<configuration>
 						<includes>
-							<include>>**/*TestClass.java</include>
+							<include>**/*TestClass.java</include>
 
 						</includes>
 					</configuration>
