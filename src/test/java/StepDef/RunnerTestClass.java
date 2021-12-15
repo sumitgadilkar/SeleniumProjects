@@ -12,7 +12,7 @@ import io.cucumber.junit.Cucumber;
 	monochrome = true,										// display output in readable format
 	plugin = {"pretty","json:target/jsonReports/cucumber.json"},
 	dryRun = false, // Req Cucumber JUnit dependency
-	tags = "@Smoke"
+	tags = {"@Smoke","@E2E"}
 	
 	)
 	public class RunnerTestClass {	

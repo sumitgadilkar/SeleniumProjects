@@ -5,7 +5,7 @@ Given user opens the url
 When user tries click on Sign in link
 Then user is navigated to sign in page
 
-
+@E2E
 Scenario: User is on sign in page
 When user verify the title of the sign in page
 
@@ -19,6 +19,8 @@ And clicks on register button
 
 Examples:
 |Email|Title|CFirstName|CLastName|Password | Date | Month| Year|Company|Address|City|State|ZipCode|Country|Mobile|Alias|
-| Z7@gmail.com  |Mr. |Same|Lambe     | 123456& | 12 | 3 | 1937 | Bayer|4, Santa|Alabama|1|35000|1|25147|samba|
+| Z8@gmail.com  |Mr. |Same|Lambe     | 123456& | 12 | 3 | 1937 | Bayer|4, Santa|Alabama|1|35000|1|25147|samba|
+| Z9@gmail.com  |Mr. |Same|Lambe     | 123456& | 12 | 3 | 1937 | Bayer|4, Santa|Alabama|1|35000|1|25147|samba|
+| Z10@gmail.com  |Mr. |Same|Lambe     | 123456& | 12 | 3 | 1937 | Bayer|4, Santa|Alabama|1|35000|1|25147|samba|
 
 
