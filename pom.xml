@@ -78,7 +78,7 @@
 					<version>3.0.0-M5</version>
 					<configuration>
 						<includes>
-							<include>>**/RunnerTestClass.java</include>
+							<include>>**/*TestClass.java</include>
 
 						</includes>
 					</configuration>
