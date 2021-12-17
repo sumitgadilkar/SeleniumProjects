@@ -11,8 +11,8 @@
         "steps": [
           {
             "result": {
-              "duration": 997100,
-              "status": "skipped"
+              "duration": 12150000000,
+              "status": "passed"
             },
             "line": 4,
             "name": "user opens the url",
@@ -23,7 +23,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5945000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "user tries click on Sign in link",
@@ -34,7 +35,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is navigated to sign in page",
@@ -46,7 +48,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-15T18:31:05.458Z",
+        "start_timestamp": "2021-12-15T18:32:41.407Z",
         "line": 9,
         "name": "User is on sign in page",
         "description": "",
@@ -56,7 +58,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 41000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "user verify the title of the sign in page",
@@ -81,7 +84,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 17315000000,
+              "status": "passed"
             },
             "line": 4,
             "name": "user opens the url",
@@ -92,7 +96,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2855000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "user tries click on Sign in link",
@@ -103,7 +108,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 9000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is navigated to sign in page",
@@ -115,7 +121,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-15T18:31:05.535Z",
+        "start_timestamp": "2021-12-15T18:32:59.619Z",
         "line": 22,
         "name": "User provides email and fills registration form",
         "description": "",
@@ -125,14 +131,15 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 277000000,
+              "status": "passed"
             },
             "line": 15,
-            "name": "user provides \"Z8@gmail.com\" and clicks on createbutton",
+            "name": "user provides \"Z11@gmail.com\" and clicks on createbutton",
             "match": {
               "arguments": [
                 {
-                  "val": "Z8@gmail.com",
+                  "val": "Z11@gmail.com",
                   "offset": 15
                 }
               ],
@@ -142,7 +149,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "user is on registration page",
@@ -153,7 +161,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4551000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "user fills \"Mr.\" and \"Same\" and \"Lambe\" and \"123456\u0026\" and \"12\" and \"3\" and \"1937\" and \"Bayer\" and \"4, Santa\" and \"Alabama\" and \"1\" and \"35000\" and \"1\" and \"25147\" and \"samba\"",
@@ -226,7 +235,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7807000000,
+              "status": "passed"
             },
             "line": 18,
             "name": "clicks on register button",
@@ -251,7 +261,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 14054000000,
+              "status": "passed"
             },
             "line": 4,
             "name": "user opens the url",
@@ -262,7 +273,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2794000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "user tries click on Sign in link",
@@ -273,7 +285,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 26000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is navigated to sign in page",
@@ -285,7 +298,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-15T18:31:05.553Z",
+        "start_timestamp": "2021-12-15T18:33:32.457Z",
         "line": 23,
         "name": "User provides email and fills registration form",
         "description": "",
@@ -295,14 +308,15 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 321000000,
+              "status": "passed"
             },
             "line": 15,
-            "name": "user provides \"Z9@gmail.com\" and clicks on createbutton",
+            "name": "user provides \"Z12@gmail.com\" and clicks on createbutton",
             "match": {
               "arguments": [
                 {
-                  "val": "Z9@gmail.com",
+                  "val": "Z12@gmail.com",
                   "offset": 15
                 }
               ],
@@ -312,7 +326,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "user is on registration page",
@@ -323,7 +338,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3884000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "user fills \"Mr.\" and \"Same\" and \"Lambe\" and \"123456\u0026\" and \"12\" and \"3\" and \"1937\" and \"Bayer\" and \"4, Santa\" and \"Alabama\" and \"1\" and \"35000\" and \"1\" and \"25147\" and \"samba\"",
@@ -396,7 +412,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 11315000000,
+              "status": "passed"
             },
             "line": 18,
             "name": "clicks on register button",
@@ -421,7 +438,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 13035000000,
+              "status": "passed"
             },
             "line": 4,
             "name": "user opens the url",
@@ -432,7 +450,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7609000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "user tries click on Sign in link",
@@ -443,7 +462,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is navigated to sign in page",
@@ -455,7 +475,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-15T18:31:05.575Z",
+        "start_timestamp": "2021-12-15T18:34:04.874Z",
         "line": 24,
         "name": "User provides email and fills registration form",
         "description": "",
@@ -465,14 +485,15 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 254000000,
+              "status": "passed"
             },
             "line": 15,
-            "name": "user provides \"Z10@gmail.com\" and clicks on createbutton",
+            "name": "user provides \"Z13@gmail.com\" and clicks on createbutton",
             "match": {
               "arguments": [
                 {
-                  "val": "Z10@gmail.com",
+                  "val": "Z13@gmail.com",
                   "offset": 15
                 }
               ],
@@ -482,7 +503,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "user is on registration page",
@@ -493,7 +515,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3185000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "user fills \"Mr.\" and \"Same\" and \"Lambe\" and \"123456\u0026\" and \"12\" and \"3\" and \"1937\" and \"Bayer\" and \"4, Santa\" and \"Alabama\" and \"1\" and \"35000\" and \"1\" and \"25147\" and \"samba\"",
@@ -566,7 +589,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 14477000000,
+              "status": "passed"
             },
             "line": 18,
             "name": "clicks on register button",
@@ -594,7 +618,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-12-15T18:31:05.582Z",
+        "start_timestamp": "2021-12-15T18:34:43.451Z",
         "line": 4,
         "name": "User account successful",
         "description": "",
@@ -604,7 +628,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 6926000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "user is on accounts page",
