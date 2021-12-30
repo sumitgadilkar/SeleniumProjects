@@ -15,6 +15,9 @@ public class accountsPage extends TestBase {
 	@FindBy(xpath="//span[contains(text(),'My addresses')]")
 	WebElement addressBtn;
 	
+	@FindBy(xpath = "//*[contains(text(),'Home')]")
+	WebElement HomeBtn;
+	
 	public accountsPage() {
 		
 			PageFactory.initElements(driver, this);
@@ -25,5 +28,10 @@ public class accountsPage extends TestBase {
 	}
 	
 	
+	public homeCustomerPage HomeBtnClick() {
+		HomeBtn.click();
+		return new homeCustomerPage();
+	}
+
 	
 }

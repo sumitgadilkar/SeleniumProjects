@@ -61,8 +61,20 @@ public class LoginStepDef extends TestBase{
 	public void clicks_on_Create_Account_button(String email) throws IOException {
 		login = new loginPage();
 		login.emailBox(email);
+		try {
+			Thread.sleep(30);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		clicksign =  driver.findElement(By.xpath("//*[@id='create-account_form']"));
 		screenshotHandler.takeScreenshot(driver, "email_screenshot", clicksign);
+		try {
+			Thread.sleep(30);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		registration = login.createButton();
 			    
 	}
